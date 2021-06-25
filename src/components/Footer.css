@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+ol,
+ul {
+  list-style: none;
+}
+.mainMenu {
+  margin: 10px;
+  font-family: sans-serif;
+}
+.mainMenu li {
+  display: block;
+  width: 100px;
+  float: right;
+  margin-left: 12px;
+}
+.mainMenu a {
+  display: block;
+  padding: 4px;
+  text-decoration: none;
+}
+.mainMenu a:hover {
+  color: #fff;
+}
